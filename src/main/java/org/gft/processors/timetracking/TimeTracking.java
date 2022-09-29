@@ -126,8 +126,7 @@ public class TimeTracking extends StreamPipesDataProcessor {
     System.out.println("======= OUTPUT VALUE ============" + outputValue);
     event.addField("outputValue", outputValue);
     out.collect(event);
-
-
+    
   }
 
   @Override
